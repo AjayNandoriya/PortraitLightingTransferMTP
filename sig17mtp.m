@@ -11,7 +11,7 @@ function out_img = sig17mtp(source_img,ref_img)
 Niter=100;
 wn= 1;wp= 1;wc = 1;
 scale = 2;
-addpath('../3DMM_edges-master');
+addpath(genpath('../3DMM_edges'));
 
 % rescale
 source.ori_img = source_img;

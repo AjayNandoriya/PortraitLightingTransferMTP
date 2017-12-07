@@ -1,6 +1,7 @@
+addpath(genpath('.'));
 % Siggraph 2017 MTP demo script
-source_img = im2double(imread('img\images\mean_002_1_15.jpg'));
-ref_img = im2double(imread('img\images\mean_003_1_15.jpg'));
+source_img = im2double(imread('img/images/mean_002_1_15.jpg'));
+ref_img = im2double(imread('img/images/mean_003_1_15.jpg'));
 
 tic;
 out_img = sig17mtp(source_img,ref_img);
